@@ -1,0 +1,56 @@
+* {
+    color: #ffffff;  
+ }
+ body {
+     background-color: #000000;
+     font-size: 18px;
+     
+ 
+ }
+ 
+ header {
+     width: 100%;
+     max-width: 960px;
+     height: 100px;
+     margin: 0 auto;
+     clear: both;
+ 
+ }
+ 
+ h1 {
+     text-align: center;
+     color: #ff0000;
+     font-size: 50px;
+     font-weight: bold;
+ }
+ 
+ main {
+     width: 100%;
+     max-width: 960px;
+     height: auto;
+     margin: 0 auto;
+ }
+ 
+ .wrapper {
+     display: grid;
+     grid-template-columns: 10% 1fr 1fr 10%;
+     /* width: 100%;
+     max-width: 960px;
+     margin: 0 auto;
+     clear: both; */
+ }
+ 
+ .columnImg {
+     grid-column: 2/3;
+     display: grid;
+     border: #ffffff 1px dotted;
+ }
+ 
+ .gallows {
+     justify-self: center;
+ }
+ 
+ .columnGame {
+     grid-column: 3/4;
+     border: #ffffff 1px dotted;
+ }
