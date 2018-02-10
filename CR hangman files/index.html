@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HANGMAN-Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    
+</head>
+<body>
+    <header>
+        <h1>HANGMAN</h1>
+    </header>
+
+    <main>
+       <div class="wrapper">
+            <div class = "columnImg">
+                <img class="gallows" src="assets/images/gallows.jpeg" alt="Gallows">
+            </div>
+            <div class = "columnGame">
+                <p>
+                    Press any key to get started!
+                </p>
+
+                <br>
+                
+                <p>
+                    Wins
+                </p>
+                <br>
+                
+                <p id="wins"></p>
+                
+                <br>
+                <!-- <hr> -->
+                <p>
+                    Current Word
+                </p>
+                <br>
+
+                <p id="currentWord"></p>
+                
+                <br>
+                <!-- <hr> -->
+                <p>
+                    Numbers of guesses remaining:  <span id="guessesLeft"></span>
+                </p>
+                
+                <br>
+                <!-- <hr> -->
+                <p id="lettersUsed">
+                    Letters already guessed
+                </p>
+
+                <br>
+            </div>
+       </div> 
+    </main>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
